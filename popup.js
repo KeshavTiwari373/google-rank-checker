@@ -1,5 +1,5 @@
 const apiKey = 'AIzaSyBZwe4jXP49d4WC1ZLPMvonnTD3BY_vMVw'; // Replace with your API Key
-const cseId = '42b8bde10d12c4d9c'; // Replace with your Custom Search Engine ID
+const cseId = '42b8bde10d12c4d9c'; // Custom Search Engine ID
 
 // Function to handle clipboard paste
 async function getClipboardContent() {
