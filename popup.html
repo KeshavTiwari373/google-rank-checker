@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Google Rank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Google Rank Checker</h1>
+
+        <div class="input-group">
+            <label for="keyword">Keyword:</label>
+            <input type="text" id="keyword" placeholder="Enter a keyword" />
+        </div>
+
+        <div class="input-group">
+            <label for="urls">URLs (comma separated):</label>
+            <textarea id="urls" placeholder="Paste URLs here, separated by commas"></textarea>
+        </div>
+
+        <div class="input-group">
+            <label for="pageNumber">Page Number:</label>
+            <input type="number" id="pageNumber" value="1" min="1" />
+        </div>
+
+        <button id="check-rank" class="btn">Check Rank</button>
+
+        <div id="usage-info" class="info"></div>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
